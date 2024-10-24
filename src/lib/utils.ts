@@ -26,10 +26,10 @@ export function formatPrice(
 }
 
 export function constructMetadata({
-  title = "DigitalHippo - the marketplace for digital assets",
-  description = "DigitalHippo is an open-source marketplace for high-quality digital goods.",
+  title = "sterretjes",
+  description = "some website.",
   image = "/thumbnail.png",
-  icons = "/favicon.ico",
+  icons = "/icon.ico",
   noIndex = false,
 }: {
   title?: string;
