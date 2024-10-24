@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Icons } from "./Icons";
 import NavItems from "./NavItems";
@@ -23,7 +24,7 @@ const Navbar = async () => {
 
               <div className="ml-4 flex lg:ml-0">
                 <Link href="/">
-                  <Icons.logo className="h-10 w-10" />
+                  <Image src={"/hey.gif"} width={10} height={10} alt="s" className="h-10 w-10 rounded-2xl" />
                 </Link>
               </div>
 

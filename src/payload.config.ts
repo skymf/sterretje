@@ -24,7 +24,7 @@ export default buildConfig({
     user: "users",
     bundler: webpackBundler(),
     meta: {
-      titleSuffix: "- sterretjes",
+      titleSuffix: "sterretjes",
       favicon: "/icon.ico",
       ogImage: "/thumbnail.jpg",
     },
