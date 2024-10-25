@@ -40,9 +40,7 @@ const NavItems = () => {
             setActiveIndex(i)
           }
         }
-
         const close = () => setActiveIndex(null)
-
         const isOpen = i === activeIndex
 
         return (

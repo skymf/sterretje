@@ -59,7 +59,6 @@ const MobileNav = () => {
                 <X className='h-6 w-6' aria-hidden='true' />
               </button>
             </div>
-
             <div className='mt-2'>
               <ul>
                 {PRODUCT_CATEGORIES.map((category) => (

@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import { Icons } from "./Icons";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -10,13 +10,13 @@ const Footer = () => {
   const pathsToMinimize = ["/verify-email", "/sign-up", "/sign-in"];
 
   return (
-    <footer className="bg-white flex-grow-0">
+    <footer className=" flex-grow-0">
       <MaxWidthWrapper>
         <div className="border-t border-gray-200">
           {pathsToMinimize.includes(pathname) ? null : (
             <div className="pb-8 pt-16">
               <div className="flex justify-center">
-                <Icons.logo className="h-12 w-auto" />
+                <Image src={"/hey.gif"} width={10} height={10} alt="s" className="h-10 w-10 rounded-2xl" />
               </div>
             </div>
           )}
@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
 
                 <div className="text-center relative mx-auto max-w-sm">
-                  <h3 className="font-semibold text-gray-900">
+                  <h3 className="font-medium">
                     Become a seller
                   </h3>
                   <p className="mt-2 text-sm text-muted-foreground">
